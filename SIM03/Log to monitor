@@ -1,0 +1,93 @@
+Configuration File Data
+Processor = 10 ms/cycle
+Monitor = 25 ms/cycle
+hard drive = 50 ms/cycle
+Printer = 500 ms/cycle
+Keyboard = 1000 ms/cycle
+Memory = 35 ms/cycle
+Mouse = 20 ms/cycle
+Speaker = 10 ms/cycle
+System memory = 2048 kilobytes
+Memory block size = 128 kilobytes
+Printer quantity = 3
+Hard drive quantity = 4
+Logged to: Monitor and Log to monitor
+
+
+Meta Data Metrics
+S(start) = 0 ms
+A(start) = 0 ms
+M(allocate) = 420 ms
+P(run) = 40 ms
+I(harddrive) = 700 ms
+O(printer) = 5000 ms
+P(run) = 90 ms
+P(run) = 90 ms
+I(keyboard) = 5000 ms
+P(run) = 140 ms
+O(harddrive) = 450 ms
+M(allocate) = 140 ms
+I(mouse) = 180 ms
+O(harddrive) = 350 ms
+P(run) = 80 ms
+I(harddrive) = 600 ms
+O(printer) = 6000 ms
+P(run) = 110 ms
+P(run) = 10 ms
+O(printer) = 2500 ms
+O(monitor) = 125 ms
+O(speaker) = 20 ms
+P(run) = 110 ms
+P(run) = 140 ms
+A(end) = 0 ms
+System memory) = 2048 ms
+Memory block size) = 128 ms
+Printer quantity) = 3 ms
+Hard drive quantity) = 4 ms
+0.000000 - Simulator program starting
+7.9e-05 - OS: preparing process 1
+0.000125 - Process 1: allocating memory
+0.42017 - process 1 memory allocated at 0x13
+0.420228 - Process 1: start processing action
+0.460286 - process 1 :end processing action
+0.460324 - Process 1: start harddrive input
+1.16037 - process 1: end hardrive input
+1.16045 - Process 1: start printer output
+6.1605 - process 1: end printer output
+6.16055 - Process 1: start processing action
+6.25059 - process 1 :end processing action
+6.25065 - Process 1: start processing action
+6.34069 - process 1 :end processing action
+6.34076 - Process 1: start keyboard input
+11.3408 - process 1: end keyboard input
+11.3409 - Process 1: start processing action
+11.481 - process 1 :end processing action
+11.481 - Process 1: start harddrive output
+11.9311 - process 1: end hardrive output
+11.9311 - Process 1: allocating memory
+12.0712 - process 1 memory allocated at 0x6
+12.0713 - Process 1: start mouse input
+12.2513 - process 1: end mouse input
+12.2514 - Process 1: start harddrive output
+12.6014 - process 1: end hardrive output
+12.6015 - Process 1: start processing action
+12.6816 - process 1 :end processing action
+12.6816 - Process 1: start harddrive input
+13.2817 - process 1: end hardrive input
+13.2818 - Process 1: start printer output
+19.2818 - process 1: end printer output
+19.2819 - Process 1: start processing action
+19.3919 - process 1 :end processing action
+19.392 - Process 1: start processing action
+19.402 - process 1 :end processing action
+19.4021 - Process 1: start printer output
+21.9021 - process 1: end printer output
+21.9022 - Process 1: start monitor output
+22.0273 - process 1: end monior output
+22.0273 - Process 1: start speaker output
+22.0474 - process 1: end speaker output
+22.0474 - Process 1: start processing action
+22.1575 - process 1 :end processing action
+22.1575 - Process 1: start processing action
+22.2976 - process 1 :end processing action
+22.2977 - OS: Removing process 1
