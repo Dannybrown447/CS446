@@ -1,0 +1,54 @@
+Configuration File Data
+CPU scheduling code = FIFO
+Processor = 10 ms/cycle
+Monitor = 25 ms/cycle
+hard drive = 50 ms/cycle
+Printer = 500 ms/cycle
+Keyboard = 1000 ms/cycle
+Memory = 35 ms/cycle
+Mouse = 20 ms/cycle
+Speaker = 10 ms/cycle
+System memory = 2048 kilobytes
+Memory block size = 128 kilobytes
+Printer quantity = 3
+Harddrive quantity = 4 ms/cycle
+Logged to: Monitor and output/output_1.out
+
+
+Meta Data Metrics
+S(start) = 0 ms
+A(start) = 0 ms
+M(allocate) = 420 ms
+P(run) = 40 ms
+I(harddrive) = 700 ms
+O(printer) = 5000 ms
+P(run) = 90 ms
+A(end) = 0 ms
+A(start) = 0 ms
+P(run) = 90 ms
+I(keyboard) = 5000 ms
+P(run) = 140 ms
+O(harddrive) = 450 ms
+M(allocate) = 140 ms
+I(mouse) = 180 ms
+M(allocate) = 140 ms
+O(harddrive) = 350 ms
+P(run) = 80 ms
+I(harddrive) = 600 ms
+O(printer) = 6000 ms
+P(run) = 110 ms
+P(run) = 10 ms
+O(printer) = 2500 ms
+O(monitor) = 125 ms
+O(speaker) = 20 ms
+P(run) = 110 ms
+P(run) = 140 ms
+A(end) = 0 ms
+FIFO) = 0 ms
+0.000001 - Simulator program starting
+8.4e-05 - OS: preparing process 1
+0.000141 - Process 1: allocating memory
+0.420184 - process 1 memory allocated at 0x00000000
+0.420266 - Process 1: start processing action
+0.460314 - process 1 :end processing action
+0.460422 - Process 1: start harddrive input
