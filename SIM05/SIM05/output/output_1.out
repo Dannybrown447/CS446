@@ -1,0 +1,101 @@
+Configuration File Data
+CPU scheduling code = FIFO
+Processor = 10 ms/cycle
+Monitor = 25 ms/cycle
+hard drive = 50 ms/cycle
+Printer = 500 ms/cycle
+Keyboard = 1000 ms/cycle
+Memory = 35 ms/cycle
+Mouse = 20 ms/cycle
+Speaker = 10 ms/cycle
+System memory = 2048 kilobytes
+Memory block size = 128 kilobytes
+Printer quantity = 3
+Harddrive quantity = 4 ms/cycle
+Logged to: Monitor and output/output_1.out
+
+
+Meta Data Metrics
+S(start) = 0 ms
+A(start) = 0 ms
+M(allocate) = 420 ms
+P(run) = 40 ms
+I(harddrive) = 700 ms
+O(printer) = 5000 ms
+P(run) = 90 ms
+A(end) = 0 ms
+A(start) = 0 ms
+P(run) = 90 ms
+I(keyboard) = 5000 ms
+P(run) = 140 ms
+O(harddrive) = 450 ms
+M(allocate) = 140 ms
+A(end) = 0 ms
+A(start) = 0 ms
+I(mouse) = 180 ms
+M(allocate) = 140 ms
+O(harddrive) = 350 ms
+P(run) = 80 ms
+I(harddrive) = 600 ms
+O(printer) = 6000 ms
+P(run) = 110 ms
+P(run) = 10 ms
+O(printer) = 2500 ms
+O(monitor) = 125 ms
+O(speaker) = 20 ms
+P(run) = 110 ms
+P(run) = 140 ms
+A(end) = 0 ms
+FIFO) = 0 ms
+1e-06 - OS: preparing process 1
+7e-05 - Process 1: allocating memory
+0.420115 - process 1 memory allocated at 0x00000000
+0.420199 - Process 1: start processing action
+0.46024 - process 1 :end processing action
+0.460302 - Process 1: start harddrive input
+1.16034 - process 1: end hardrive input
+1.16042 - Process 1: start printer output
+6.16046 - process 1: end printer output
+6.16053 - Process 1: start processing action
+6.25057 - process 1 :end processing action
+6.25066 - OS: Removing process 1
+6.25071 - OS: preparing process 2
+6.25074 - Process 2: start processing action
+6.34082 - process 2 :end processing action
+6.34089 - Process 2: start keyboard input
+11.3409 - process 2: end keyboard input
+11.341 - Process 2: start processing action
+11.481 - process 2 :end processing action
+11.4811 - Process 2: start harddrive output
+11.9311 - process 2: end hardrive output
+11.9312 - Process 2: allocating memory
+12.0712 - process 2 memory allocated at 0x00000000
+12.0713 - OS: Removing process 2
+12.0714 - OS: preparing process 3
+12.0714 - Process 3: start mouse input
+12.2515 - process 3: end mouse input
+12.2516 - Process 3: allocating memory
+12.3916 - process 3 memory allocated at 0x00000000
+12.3917 - Process 3: start harddrive output
+12.7417 - process 3: end hardrive output
+12.7418 - Process 3: start processing action
+12.8219 - process 3 :end processing action
+12.8219 - Process 3: start harddrive input
+13.422 - process 3: end hardrive input
+13.422 - Process 3: start printer output
+19.4221 - process 3: end printer output
+19.4222 - Process 3: start processing action
+19.5322 - process 3 :end processing action
+19.5322 - Process 3: start processing action
+19.5423 - process 3 :end processing action
+19.5423 - Process 3: start printer output
+22.0423 - process 3: end printer output
+22.0424 - Process 3: start monitor output
+22.1674 - process 3: end monior output
+22.1675 - Process 3: start speaker output
+22.1875 - process 3: end speaker output
+22.1876 - Process 3: start processing action
+22.2976 - process 3 :end processing action
+22.2977 - Process 3: start processing action
+22.4377 - process 3 :end processing action
+22.4378 - OS: Removing process 3
